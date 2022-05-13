@@ -26,7 +26,6 @@ Para crear una tarea en VPL
 3) Establecer los ficheros requeridos: Se establece los nombres y contenido inicial de los ficheros requeridos para los estuidantes. 
 4) Establecer la batería de test: Una vez creada la actividad, se debe establecer la bateria de prueba que deberá pasar el código fuente. Se debe completar el fichero "vpl_evaluate.cases". 
 
-
 Batería de Prueba (vpl_evaluate.cases) Los principales comandos son: 
     - Case = Name Case: Todos los casos de uso deben tener un nombre identificativo
     - Input = Text|Number. Los valores de entrada pudiendo establecerse en una única línea o varias. Este apartado termina cuando se define otra instrucción.
