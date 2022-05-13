@@ -1,0 +1,8 @@
+Definir un array de 10 enteros e introducir los 10 datos por teclado. A continuación se pedirá un número más y calculará los siguientes casos:
+Suma elementos del array (Suma: XXX)
+Media del array (Media: XXXX)
+La primera posición del elemento introducido (Primera: YYY) (En caso que no exista se mostrará -1)
+Número de veces que un determinado elemento existe en el array (Ocurrencias: ZZZ)
+El número más alto del array (Alto: WWWW)
+
+El resultado sería: Suma:Val1 Media:Val2 Primera: Val3 Ocurrencias: Val4 Alto:Val5

@@ -1,0 +1,37 @@
+Cada alumno deberá implementar una clase distinta que:
+
+   • Tenga dos atributos String y un tipo entero (por este orden)
+
+   • Tenga los constructores: por defecto y al menos un parametrizado
+
+   • Tenga los accesores y mutadores
+
+   • Tenga el método toString() y equals()
+
+IMPORTANTE:
+
+    El primer valor que se lee por teclado, es el tamaño del array.
+
+A continuación definir una clase main con un vector e implementar las operaciones de:
+
+   1. Inicializar el vector
+
+   2. Rellenar el vector. Primero se pedirá el tamaño del array y a continuación se pedirá  todos los objetos de la clase creada con datos (se pedirá por teclado por en el orden indicado).
+
+   3. Listar todos los objetos del vector
+
+   4. Obtener la media y el valor más alto del campo de tipo entero de todos los elementos de la lista. 
+
+El formato de salida, para una clase vehículo sería : 
+
+             [renault,megane,110]
+
+             [ford,focus,135]
+
+             [citroen,berlingo,85]
+
+             .....
+
+             Media: YYY Alto: XXXX
+
+Donde YYY es la media  de los valores numéricos de los objetos del vector y XXX es el valor más alto. 
