@@ -29,7 +29,7 @@ Los principales comandos son:
 * **Program arguments**. Argumentos del programa. Permite enviar información al programa del estudiante
 * **Expected exit code**. Código de salida esperado. Establece el código de salida esperado de la ejecución del caso del programa (return)
     
-# Ejemplo de vpl_evalute.cases. Hola Mundo. 
+# Ejemplo 1. Hola Mundo. 
 
 Se quiere realizar un batería que compruebe que la salida es Hola Mundoooo. Como se puede comprobar no necesita ningún input (pues no hay entrada) y la salida se ha puesto entre comillas para comprobar que la salida es exacta. 
 
@@ -39,5 +39,30 @@ Grade reduction = 100%
 output = "Hola Mundoooo"
 ```
 
+# Ejemplo 2. Menor de Tres. 
+En este caso vamos a leer tres números por entrada y mostraremos el menor de los tres. 
+
+```javascript
+case = Test 1
+grade reduction = 30%
+input =3
+5
+10
+Output = 3
+
+case = Test 2
+grade reduction = 30%
+input =3
+3
+3
+Output = 3
+
+case = Test 3
+grade reduction = 40%
+input =1000
+-1000
+2000
+output = -1000
+```
 
 
