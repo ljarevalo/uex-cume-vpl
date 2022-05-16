@@ -1,1 +1,0 @@
-Descripción. Hacer un programa que determine si un número leído por teclado es múltiplo de 2 y de 5. 

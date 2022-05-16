@@ -1,1 +1,0 @@
-Leer tres números y mostrar el menor de ellos.

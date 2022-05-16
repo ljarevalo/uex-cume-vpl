@@ -1,3 +1,0 @@
-Dado un número entero introducido por teclado, comprobar si es par o impar.
-
-La salida debe ser exactamente "Impar" o "Par"
