@@ -17,7 +17,8 @@
 # Batería de Prueba (vpl_evaluate.cases) 
 Los principales comandos son:
 * **Case** = Name Case: Todos los casos de uso deben tener un nombre identificativo
-* **Input** = Text|Number. Los valores de entrada pudiendo establecerse en una única línea o varias. Este apartado termina cuando se define otra instrucción.
+* **Input** = Text|Number. Los valores de entrada pudiendo establecerse en una única línea o varias. Este apartado termina cuando se define otra instrucción. 
+  * **IMPORTANTE** En java cuando se leen valores numéricos no se puede dejar espacio entre el igual y el valor numérico. **input =5**
 * **Output** = Text|Number|Regex. Salida esperada a partir de los inputs.
   * Números: solo se escriben números. Solo se extraen números, el resto del texto se ignora.
   * Texto: solo se verifican las palabras, la comparación no distingue entre mayúsculas y minúsculas y los demás caracteres se ignoran.
@@ -45,6 +46,7 @@ En este caso vamos a leer tres números por entrada y mostraremos el menor de lo
 ```javascript
 case = Test 1
 grade reduction = 30%
+Fail Message = No es correcto
 input =3
 5
 10
@@ -52,6 +54,7 @@ Output = 3
 
 case = Test 2
 grade reduction = 30%
+Fail Message = Hay números iguales
 input =3
 3
 3
@@ -59,6 +62,7 @@ Output = 3
 
 case = Test 3
 grade reduction = 40%
+Fail Message = Hay números negativos
 input =1000
 -1000
 2000
