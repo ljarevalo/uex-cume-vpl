@@ -26,14 +26,14 @@ Para crear una tarea en VPL
 3) Establecer los ficheros requeridos: Se establece los nombres y contenido inicial de los ficheros requeridos para los estuidantes. 
 4) Establecer la batería de test: Una vez creada la actividad, se debe establecer la bateria de prueba que deberá pasar el código fuente. Se debe completar el fichero "vpl_evaluate.cases". 
 
-Batería de Prueba (vpl_evaluate.cases) Los principales comandos son: 
+Batería de Prueba (vpl_evaluate.cases) Los principales comandos son:
     - Case = Name Case: Todos los casos de uso deben tener un nombre identificativo
     - Input = Text|Number. Los valores de entrada pudiendo establecerse en una única línea o varias. Este apartado termina cuando se define otra instrucción.
     - Output = Text|Number|Regex. Salida esperada a partir de los inputs.
         - Números: solo se escriben números. Solo se extraen números, el resto del texto se ignora.
         - Texto: solo se verifican las palabras, la comparación no distingue entre mayúsculas y minúsculas y los demás caracteres se ignoran.
         - Texto exacto: el texto está entre comillas dobles.
-        Expresiones regulares: Empieza con / y termina con / y opcionalmente uno o varios modificadores. El formato es POSIX
+        - Expresiones regulares: Empieza con / y termina con / y opcionalmente uno o varios modificadores. El formato es POSIX
     - Grade reduction = Grade Reduction.  Porcentaje de reducción cuando las salidas no se corresponden con la esperada. 
     - Fail Message. Mensaje de error. Establece el texto para mostrar cuando falla el caso. Se omite la información de entrada y salida.
     - Program to run: Programa a ejecutar: Reemplaza, el programa del estudiante por otro. Por ejemplo, puede utilizar esta instrucción para ejecutar un análisis estático / dinámico del código del alumno.
