@@ -6,3 +6,38 @@ Número de veces que un determinado elemento existe en el array (Ocurrencias: ZZ
 El número más alto del array (Alto: WWWW)
 
 El resultado sería: Suma:Val1 Media:Val2 Primera: Val3 Ocurrencias: Val4 Alto:Val5
+
+
+# Bateria de test 
+
+```javascript
+case = Test 1
+Grade reduction = 100%
+input =68
+44
+46
+62
+7
+33
+78
+71
+14
+44
+44
+output = Suma: 467 Media: 46,7 Primera: 1 Ocurrencias: 2 Alto: 78
+
+case = Test 2
+Grade reduction = 100%
+input =68
+44
+46
+62
+7
+33
+78
+71
+14
+44
+45
+output = Suma: 467 Media: 46,7 Primera: -1 Ocurrencias: 0 Alto: 78
+```
