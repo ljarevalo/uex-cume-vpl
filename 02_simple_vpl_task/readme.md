@@ -18,5 +18,6 @@ En este directorio se incluyen varios ejemplos de tareas VPL. En cada uno de ell
 6. Numero Primo
 7. Bisiesto
 8. Billetes y Monedas
+9. Adivina número
 10. Array de enteros
-11. Array de objsto
+11. Array de objetos
