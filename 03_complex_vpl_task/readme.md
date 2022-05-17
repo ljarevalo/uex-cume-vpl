@@ -1,4 +1,4 @@
-En este directorio se incluirán nuevos ejemplos de tareas VPL pero que necesitan de un proceso de configuración. En primer lugar se detalla cómo funciona VPL para compresnder las distintas opciones que pueden llevarse a cabo y posteriormente se clasifican y se incluyen en un subdirectorio cada una de ellas. 
+En este directorio se incluirán nuevos ejemplos de tareas VPL pero que necesitan de un proceso de configuración. 
 
 # Como funciona VPL 
 Para ello será necesario saber cómo funciona mejor este plugins. Cuando un estudiante realiza un proceso de evaluación se realizan los siguientes pasos: 
