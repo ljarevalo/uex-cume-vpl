@@ -1,4 +1,4 @@
-En este directorio se incluyen varios ejemplos de tareas VPL. En cada uno de ellos se incluye la batería de prueba así como una descripción del ejercicio a realizar. 
+En este directorio se incluyen varios ejemplos de tareas VPL que no necesitan de ninguna configuración especial, únicamente especificar la batería de prueba que debe pasar la tarea. Para cada ejercicio se incluye la batería así como una breve descripción del ejercicio a realizar. 
 
 # Para su integración, se recomienda:
 1. Crear una tarea VPL
