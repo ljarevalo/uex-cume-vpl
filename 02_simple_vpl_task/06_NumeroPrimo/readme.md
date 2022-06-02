@@ -1,4 +1,4 @@
-Hacer un programa que determine si un número leído por teclado es primo o no. La salida debe ser: "El número es primero" o "El número NO es primo"
+Hacer un programa que determine si un número leído por teclado es primo o no. La salida debe ser: "El número es primo" o "El número NO es primo"
 
 # Bateria de test 
 
